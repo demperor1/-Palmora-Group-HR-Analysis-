@@ -44,10 +44,11 @@ Merge EmployeeData with BonusRules using the Rating column.
 BonusAmount = [Salary] * [BonusPercent]
 TotalPay = [Salary] + [BonusAmount]
 
+## Results Visualization
 
-## Insights for Management
-Highlighted departments and regions with gender pay gaps.
-Identified compliance gaps in manufacturing pay.
-Showed data-driven bonus allocation to support fair compensation.
-Visual dashboards help explore HR trends by slicing filters.
+![Palmora visual 3](https://github.com/user-attachments/assets/9ac4c9d5-b7c9-4824-bbf5-d182bef0d0ee)
+
+![Palmora visual](https://github.com/user-attachments/assets/b0b31709-fb95-4387-9296-bb4c8f0b5eaf)
+
+![Palmora visual 4](https://github.com/user-attachments/assets/c315b28e-fb8b-4df0-8686-aedfd089a7b2)
 
