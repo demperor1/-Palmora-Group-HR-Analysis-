@@ -44,6 +44,7 @@ Merge EmployeeData with BonusRules using the Rating column.
 BonusAmount = [Salary] * [BonusPercent]
 TotalPay = [Salary] + [BonusAmount]
 
+
 ## Insights for Management
 Highlighted departments and regions with gender pay gaps.
 Identified compliance gaps in manufacturing pay.
