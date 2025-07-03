@@ -26,7 +26,6 @@ employees a minimum of $90,000
 - Show the pay distribution of employees grouped by a band of $10,000. For example: 
 - How many employees fall into a band of $10,000 – $20,000, $20,000 – $30,000, 
 etc.?
-
 - Also visualize this by regions
 5. Mr Gamma thought to himself that since you were already working on the employee 
 data, you could help out with allocating the annual bonus pay to employees based on the 
@@ -36,3 +35,18 @@ payments and asked you to:
 - Calculate the total amount to be paid to individual employees (salary inclusive of 
 bonus)
 - Total amount to be paid out per region and company-wide
+
+## Implementation Details
+All data transformations and calculations were done in Power Query (M Language), not DAX.
+### Power Query Steps:
+Merge EmployeeData with BonusRules using the Rating column.
+### Bonus Calculation:
+BonusAmount = [Salary] * [BonusPercent]
+TotalPay = [Salary] + [BonusAmount]
+
+## Insights for Management
+Highlighted departments and regions with gender pay gaps.
+Identified compliance gaps in manufacturing pay.
+Showed data-driven bonus allocation to support fair compensation.
+Visual dashboards help explore HR trends by slicing filters.
+
